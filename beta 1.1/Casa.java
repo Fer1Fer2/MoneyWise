@@ -16,6 +16,7 @@ public class Casa extends World
     public Casa()
     {    
         super(1200, 600, 1);
+        
         addObject(new Bani_robotului(),1090,58);
         addObject(new Nr_de_bani(),1160,74);
         addObject(new Bani(),850,50);
